@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import rospy
 from std_msgs.msg import Int16
 
@@ -6,7 +8,7 @@ width = 0
 def length_callback(data):
   length = data.data
 
-def width_callback(data)
+def width_callback(data):
   width = data.data
   
 #ROS Code
